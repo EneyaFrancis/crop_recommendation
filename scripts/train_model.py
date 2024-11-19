@@ -1,12 +1,11 @@
 import pandas as pd
-from scipy.special import y_pred
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 import joblib
 
 #load dataset
-data = pd.read_csv('../data/Crop_recomendation.csv')
+data = pd.read_csv('../data/Crop_recommendation.csv')
 
 #explore the data
 print("First 5 rows of the dataset")
