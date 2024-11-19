@@ -1,0 +1,15 @@
+Run the Training Script
+
+The script will:
+Train the Random Forest model.
+Save the model as soil_model.pkl in the data directory.
+Check the Output:
+
+Verify that the terminal shows a classification report and confirms the model was saved.
+
+Run the Prediction Script:
+
+Enter the soil parameters as prompted (e.g., N=90, P=42, K=43, temperature=23, humidity=82, pH=6.5, rainfall=100).
+See the Prediction:
+
+The script will display the predicted crop based on the input
